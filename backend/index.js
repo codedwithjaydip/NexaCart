@@ -17,7 +17,7 @@ let app = express()
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
- origin:["https://nexacart-forntend-two.onrender.com" , "http://localhost:5174"],
+ origin:["https://nexacart-forntend-two.onrender.com" , "https://nexacart-admin.onrender.com"],
  credentials:true
 }))
 
